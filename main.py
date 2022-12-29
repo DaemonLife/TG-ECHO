@@ -115,7 +115,7 @@ def main():
     while True:
         try:
             text = raw_input()
-        except NameError:
+        except:
             text = input()
     
         if text == 'stop':
